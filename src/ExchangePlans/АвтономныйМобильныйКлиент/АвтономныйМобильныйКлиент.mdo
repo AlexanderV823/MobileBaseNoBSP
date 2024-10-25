@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31e9b8ff-3af7-49da-b816-ef47989b03c1" thisNode="12e82c8c-eab5-48be-96f1-5bf91bbe673f">
+  <producedTypes>
+    <objectType typeId="98e7a90b-d03f-417f-8a8d-9faf890d3b2d" valueTypeId="d2212400-cfbd-4e6e-bb93-eff519050487"/>
+    <refType typeId="16d436ad-f1c4-495c-924c-2eb28c162a5c" valueTypeId="7c80d0f7-2922-4f22-bd50-3f27e7c15823"/>
+    <selectionType typeId="16a76257-1a34-47f9-be4c-094979676a01" valueTypeId="97e76e81-733d-4284-8973-c3c58a7e66e4"/>
+    <listType typeId="ad48e3fd-f76f-487c-a0dd-3ec78ebac30b" valueTypeId="ec908b2b-ac9a-4b7a-b5da-6580b9ea477f"/>
+    <managerType typeId="00a075fe-4898-4fb0-a4eb-f8563c37fc3b" valueTypeId="44f76bd8-298b-4e19-8da3-0a99e65fcabe"/>
+  </producedTypes>
+  <name>АвтономныйМобильныйКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автономный мобильный клиент</value>
+  </synonym>
+  <comment>ДЗ 15-3-2</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.АвтономныйМобильныйКлиент.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.АвтономныйМобильныйКлиент.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Constant.Логин</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Constant.Пароль</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.ЗаказПокупателя</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Контрагенты</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Номенклатура</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Constant.АдресЦентральнойБазы</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>
