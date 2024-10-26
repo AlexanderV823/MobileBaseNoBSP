@@ -9,4 +9,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ЗаказПокупателя</content>
+  <content>Document.Доставка</content>
 </mdclass:Subsystem>

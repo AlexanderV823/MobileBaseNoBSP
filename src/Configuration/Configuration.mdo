@@ -71,6 +71,7 @@
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.Доставка</documents>
   <enums>Enum.ВидНоменклатуры</enums>
+  <enums>Enum.СтатусыДоставок</enums>
   <dataProcessors>DataProcessor.ОбменСЦентральнойБазой</dataProcessors>
   <dataProcessors>DataProcessor.ДемонстрацияФункционалаМобильнойПлатформы</dataProcessors>
 </mdclass:Configuration>

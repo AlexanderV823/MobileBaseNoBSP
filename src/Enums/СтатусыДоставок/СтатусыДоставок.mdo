@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b1af671-825f-4d4c-b60a-b9837774b892">
+  <producedTypes>
+    <refType typeId="c1ebeefa-d956-46de-bd67-c11f6751869e" valueTypeId="af2f0680-17d7-4dd5-87d3-b8764fa0a357"/>
+    <listType typeId="457ba5c6-1935-4f96-92af-bb00108f9f49" valueTypeId="06acab65-0669-4d77-9084-8c8328986253"/>
+    <managerType typeId="b417755d-4065-4cd5-973d-8aedf0ed52b1" valueTypeId="748a7416-ca0e-45f0-a960-f4c0e2ab82ec"/>
+  </producedTypes>
+  <name>СтатусыДоставок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы доставок</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="747e024b-2024-4e3d-b658-3f838936af92">
+    <name>Запланирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d4b04d10-de89-4141-a9d3-982b91df2bd7">
+    <name>ВзятВРаботу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взят в работу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fcf4ecee-1fce-4e7f-9795-2b7ebe053522">
+    <name>ОтклонёнКурьером</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонён курьером</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c99ec4ba-e89a-49f2-ab20-fe49aa5049e0">
+    <name>ОтклонёнКлиентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонён клиентом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b0663334-3fa7-43eb-aeea-880e4f51cc7f">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
