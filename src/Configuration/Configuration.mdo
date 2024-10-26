@@ -69,6 +69,7 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
+  <documents>Document.Доставка</documents>
   <enums>Enum.ВидНоменклатуры</enums>
   <dataProcessors>DataProcessor.ОбменСЦентральнойБазой</dataProcessors>
   <dataProcessors>DataProcessor.ДемонстрацияФункционалаМобильнойПлатформы</dataProcessors>
