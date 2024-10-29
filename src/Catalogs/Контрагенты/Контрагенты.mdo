@@ -50,39 +50,18 @@
   <defaultObjectForm>Catalog.Контрагенты.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Контрагенты.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.Контрагенты.Form.ФормаВыбора</defaultChoiceForm>
-  <attributes uuid="961e7e77-4231-4c89-aa9d-e08335db7a6b">
-    <name>ПолноеНаименование</name>
-    <synonym>
-      <key>ru</key>
-      <value>Полное наименование</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>1024</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="a22efad7-7b48-409f-a6e5-35c7ab2d7391">
-    <name>ИНН</name>
+    <name>НомерТелефона</name>
     <synonym>
       <key>ru</key>
-      <value>ИНН</value>
+      <value>Номер телефона</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>20</length>
       </stringQualifiers>
     </type>
-    <mask>999999999999</mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">

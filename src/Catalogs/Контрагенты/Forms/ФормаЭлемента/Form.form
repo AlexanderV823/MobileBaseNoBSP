@@ -111,7 +111,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ПолноеНаименование</segments>
+      <segments>1/0:961e7e77-4231-4c89-aa9d-e08335db7a6b</segments>
     </dataPath>
     <extendedTooltip>
       <name>ПолноеНаименованиеРасширеннаяПодсказка</name>
@@ -138,20 +138,10 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>InputField</type>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <extendedEditMultipleValues>true</extendedEditMultipleValues>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>ИНН</name>
@@ -162,7 +152,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ИНН</segments>
+      <segments>Объект.НомерТелефона</segments>
     </dataPath>
     <extendedTooltip>
       <name>ИННРасширеннаяПодсказка</name>

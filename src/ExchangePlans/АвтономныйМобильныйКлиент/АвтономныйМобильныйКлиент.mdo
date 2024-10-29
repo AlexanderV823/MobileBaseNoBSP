@@ -13,7 +13,6 @@
     <value>Автономный мобильный клиент</value>
   </synonym>
   <comment>ДЗ 15-3-2</comment>
-  <useStandardCommands>true</useStandardCommands>
   <inputByString>ExchangePlan.АвтономныйМобильныйКлиент.StandardAttribute.Description</inputByString>
   <inputByString>ExchangePlan.АвтономныйМобильныйКлиент.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -32,7 +31,7 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Document.ЗаказПокупателя</mdObject>
+    <mdObject>Document.Доставка</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>

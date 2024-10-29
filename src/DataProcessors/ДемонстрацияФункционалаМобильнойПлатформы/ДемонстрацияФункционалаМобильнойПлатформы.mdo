@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Демонстрация функционала мобильной платформы</value>
   </synonym>
-  <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ДемонстрацияФункционалаМобильнойПлатформы.Form.Форма</defaultForm>
   <extendedPresentation>
     <key>ru</key>

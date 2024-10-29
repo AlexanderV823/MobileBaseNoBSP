@@ -63,12 +63,12 @@
   <subsystems>Subsystem.Документы</subsystems>
   <roles>Role.ПолныеПрава</roles>
   <exchangePlans>ExchangePlan.АвтономныйМобильныйКлиент</exchangePlans>
+  <exchangePlans>ExchangePlan.ОбменСМобильнымУстройством</exchangePlans>
   <constants>Constant.АдресЦентральнойБазы</constants>
   <constants>Constant.Логин</constants>
   <constants>Constant.Пароль</constants>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
-  <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.Доставка</documents>
   <enums>Enum.ВидНоменклатуры</enums>
   <enums>Enum.СтатусыДоставок</enums>

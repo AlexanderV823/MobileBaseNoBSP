@@ -5,12 +5,13 @@
   <usedItem metadata="Subsystem.Сервис"/>
   <usedItem metadata="Subsystem.Справочники"/>
   <usedItem metadata="Constant.Пароль"/>
-  <usedItem metadata="Document.ЗаказПокупателя"/>
+  <usedItem metadata="Enum.СтатусыДоставок"/>
   <usedItem metadata="Enum.ВидНоменклатуры"/>
   <usedItem metadata="Subsystem.Документы"/>
   <usedItem metadata="DataProcessor.ДемонстрацияФункционалаМобильнойПлатформы"/>
   <usedItem metadata="DataProcessor.ОбменСЦентральнойБазой"/>
   <usedItem metadata="Role.ПолныеПрава"/>
+  <usedItem metadata="Document.Доставка"/>
   <usedItem metadata="Catalog.Контрагенты"/>
   <usedItem metadata="Catalog.Номенклатура"/>
   <usedItem metadata="Constant.АдресЦентральнойБазы"/>
