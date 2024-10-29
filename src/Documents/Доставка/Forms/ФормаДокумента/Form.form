@@ -848,12 +848,13 @@
         <extInfo xsi:type="form:ImageFieldExtInfo">
           <handlers>
             <event>Click</event>
-            <name>ФотоНажатие</name>
+            <name>ФотоДоставкиНажатие</name>
           </handlers>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
+          <hyperlink>true</hyperlink>
           <valuesPicture xsi:type="core:PictureRef">
             <picture>StdPicture.Picture</picture>
           </valuesPicture>
