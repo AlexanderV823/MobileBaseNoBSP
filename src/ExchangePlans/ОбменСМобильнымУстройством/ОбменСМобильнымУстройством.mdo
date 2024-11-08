@@ -100,14 +100,6 @@
     <mdObject>Document.Доставка</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
-  <content>
-    <mdObject>Catalog.Контрагенты</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
-    <mdObject>Catalog.Номенклатура</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

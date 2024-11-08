@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c31830d8-e3e7-456c-836d-4414b5217140">
+  <producedTypes>
+    <selectionType typeId="0c931f14-4111-4cb3-825b-fc2a9f61ab15" valueTypeId="dfbee96b-2e4b-4a4d-b1a3-83e45bf9d9e2"/>
+    <listType typeId="9cdcd658-93cc-4538-834c-ef8e5a49d95a" valueTypeId="3ca6203d-646f-49f3-ae1b-8b3e6b06948a"/>
+    <managerType typeId="de3d59b5-53b3-499d-bde5-3d7677800114" valueTypeId="f23c0285-b2ec-48d3-ae8a-7df9d97934e5"/>
+    <recordSetType typeId="18b7a8f4-4f95-4eb0-9253-ae786ec57c84" valueTypeId="0b06c431-52e2-433a-a3bc-9e92473a48a6"/>
+    <recordKeyType typeId="bdd7e7aa-d7f5-41f5-bc50-74522e130c79" valueTypeId="37dd9d47-c0ca-4642-851e-62fb04c5da4e"/>
+    <recordType typeId="6cffe8f4-5b05-402b-b238-944a85f6941a" valueTypeId="1cdeef6a-d900-411e-9b4a-abdb42c9cbd0"/>
+    <recordManagerType typeId="ba4b9477-6672-4876-95a1-5af587ffdfca" valueTypeId="0ac1264f-85c7-44b7-964d-61036734dc77"/>
+  </producedTypes>
+  <name>ФотоДоставок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фото доставок</value>
+  </synonym>
+  <comment>mroc-diplom</comment>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Фотография доставки</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Фотографии доставки</value>
+  </listPresentation>
+  <resources uuid="394802ee-968d-4d53-bc7b-3d41f4f49157">
+    <name>Фотография</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фотография</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="faeae753-0190-48df-ac29-210122139b2a">
+    <name>Доставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Доставка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

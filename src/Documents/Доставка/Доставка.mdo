@@ -103,24 +103,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="f3cff3be-6e24-420a-b546-2e1484908666">
-    <name>ФотоДоставки</name>
-    <synonym>
-      <key>ru</key>
-      <value>Фотография доставки</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="78b46309-9e24-412b-add0-f90643bb3b89">
     <name>ФормаДокумента</name>
     <synonym>

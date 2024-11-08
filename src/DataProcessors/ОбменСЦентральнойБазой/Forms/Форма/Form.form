@@ -381,7 +381,7 @@
     <name>ПолучитьСписокДоставок</name>
     <title>
       <key>ru</key>
-      <value>Получить список доставок</value>
+      <value>Обновить доставки</value>
     </title>
     <id>3</id>
     <toolTip>

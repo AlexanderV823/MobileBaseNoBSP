@@ -15,4 +15,5 @@
   <content>Enum.ВидНоменклатуры</content>
   <content>ExchangePlan.АвтономныйМобильныйКлиент</content>
   <content>ExchangePlan.ОбменСМобильнымУстройством</content>
+  <content>InformationRegister.ФотоДоставок</content>
 </mdclass:Subsystem>

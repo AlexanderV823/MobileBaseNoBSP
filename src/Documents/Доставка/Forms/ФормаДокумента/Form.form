@@ -804,20 +804,20 @@
       <name>СтраницаФото</name>
       <id>56</id>
       <items xsi:type="form:FormField">
-        <name>ФотоДоставки</name>
-        <id>60</id>
+        <name>ФотоДоставкиСсылка</name>
+        <id>66</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ФотоДоставки</segments>
+          <segments>ФотоДоставкиСсылка</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>ФотоДоставкиРасширеннаяПодсказка</name>
-          <id>62</id>
+          <name>ФотоДоставкиСсылкаРасширеннаяПодсказка</name>
+          <id>68</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -831,8 +831,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ФотоДоставкиКонтекстноеМеню</name>
-          <id>61</id>
+          <name>ФотоДоставкиСсылкаКонтекстноеМеню</name>
+          <id>67</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -854,10 +854,6 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
-          <hyperlink>true</hyperlink>
-          <valuesPicture xsi:type="core:PictureRef">
-            <picture>StdPicture.Picture</picture>
-          </valuesPicture>
           <fileDragMode>AsFileRef</fileDragMode>
         </extInfo>
       </items>
@@ -940,6 +936,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -967,6 +967,24 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
+  <attributes>
+    <name>ФотоДоставкиСсылка</name>
+    <title>
+      <key>ru</key>
+      <value>Фото доставки ссылка</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>Позвонить</name>
     <title>
@@ -993,6 +1011,10 @@
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
+    <handlers>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
+    </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
 </form:Form>
