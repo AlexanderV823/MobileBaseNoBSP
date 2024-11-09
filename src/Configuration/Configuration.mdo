@@ -62,6 +62,7 @@
   <subsystems>Subsystem.Справочники</subsystems>
   <subsystems>Subsystem.Документы</subsystems>
   <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Курьер</roles>
   <exchangePlans>ExchangePlan.АвтономныйМобильныйКлиент</exchangePlans>
   <exchangePlans>ExchangePlan.ОбменСМобильнымУстройством</exchangePlans>
   <constants>Constant.АдресЦентральнойБазы</constants>

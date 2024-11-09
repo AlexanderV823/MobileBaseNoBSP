@@ -8,6 +8,6 @@
   <comment>ДЗ 15-3-2</comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>7c99ab59-e7cf-4766-aaba-032ef828455f</content>
   <content>Document.Доставка</content>
+  <content>ExchangePlan.ОбменСМобильнымУстройством</content>
 </mdclass:Subsystem>

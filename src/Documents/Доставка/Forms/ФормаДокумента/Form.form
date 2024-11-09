@@ -854,6 +854,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
+          <hyperlink>true</hyperlink>
           <fileDragMode>AsFileRef</fileDragMode>
         </extInfo>
       </items>

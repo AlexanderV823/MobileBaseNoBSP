@@ -13,6 +13,7 @@
     <value>Обмен с мобильным устройством</value>
   </synonym>
   <comment>Итоговая работа по модулю Мобильная разработка в 1С</comment>
+  <useStandardCommands>true</useStandardCommands>
   <inputByString>ExchangePlan.ОбменСМобильнымУстройством.StandardAttribute.Description</inputByString>
   <inputByString>ExchangePlan.ОбменСМобильнымУстройством.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
