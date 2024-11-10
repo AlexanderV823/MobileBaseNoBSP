@@ -9,5 +9,4 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.Доставка</content>
-  <content>ExchangePlan.ОбменСМобильнымУстройством</content>
 </mdclass:Subsystem>

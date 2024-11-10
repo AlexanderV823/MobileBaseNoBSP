@@ -279,7 +279,7 @@
       </extInfo>
     </extendedTooltip>
     <type>UsualButton</type>
-    <commandName>Form.Command.ОтправитьФотоДоставок</commandName>
+    <commandName>Form.Command.ОтправитьСписокДоставок</commandName>
     <representation>Auto</representation>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
@@ -430,22 +430,22 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ОтправитьФотоДоставок</name>
+    <name>ОтправитьСписокДоставок</name>
     <title>
       <key>ru</key>
-      <value>Отправить фото доставок</value>
+      <value>Отправить список доставок</value>
     </title>
     <id>4</id>
     <toolTip>
       <key>ru</key>
-      <value>Отправить фото доставок</value>
+      <value>Отправить список доставок</value>
     </toolTip>
     <use>
       <common>true</common>
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ОтправитьФотоДоставок</name>
+        <name>ОтправитьСписокДоставок</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

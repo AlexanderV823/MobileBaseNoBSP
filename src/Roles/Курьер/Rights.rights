@@ -119,13 +119,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.Справочники</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Constant.Пароль</name>
 		<right>
 			<name>Read</name>
